@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    color: white;
+    background-color: rgb(42, 43, 43);
+}
+
+.fnav .left{
+    display: flex;
+    margin-top: 11px;
+}
+
+.left img{
+    width: 22%;
+}
+
+.left input{
+    margin-inline: 11px;
+    width: 420px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+.fnav .right{
+    display: flex;
+    margin-top: 15px;
+}
+
+.right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+    background-color: pink;
+    color: white;
+}
+
+.right p{
+    margin-inline: 22px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(26,26,48);
+    color: white;
+}
+.second .s-left{
+    display: flex;
+}
+
+.second p:hover{
+    color: pink;
+    cursor: point;
+    font-weight: 600;
+
+}
+
+.second .s-right{
+    display: flex;
+}
+
+.s-left p{
+    margin-inline-start: 22px;
+}
+
+.s-right p{
+    margin-inline-start: 22px;
+}
+.main img{
+    width: 100%;
+    height: 500px;
+    transition: 5s;
+}
+.main:hover{
+    box-shadow: 5px 10px 20px royalblue;
+}
+
+.Movies h2{
+    text-align: center;
+    padding: 22px;
+}
+.Movies h2:hover{
+    background-color: brown;
+}
+
+.card:hover{
+    box-shadow: 4px 8px 16px green;   /*owl*/
+}
+
+.Movies .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.card img{
+    width: 18%;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 44px;
+}
+
+.Events h2{
+    text-align: center;
+    padding: 22px;
+}
+
+.Events .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.card img{
+    width: 18%;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+
+.premier h2{
+    text-align: center;
+    padding: 22px;
+}
+
+.premier .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.card img{
+    width: 18%;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+
+.leatest h2{
+    text-align: center;
+    padding: 22px;
+}
+
+.leatest .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.card img{
+    width: 18%;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+
+.color{
+    border: 100%;
+    margin-inline: 11px;
+}
+
+.footer{
+    background-color: rgb(227, 218, 218);
+    padding: 33px;
+    margin-top: 44px;
+}
+
+.footer img{
+    width: 22%;
+    margin-left: 36%;
+}
+
+.color{
+    border-radius: 5px;
+    border-color: pink;
+}
+
+
+
